@@ -1843,7 +1843,10 @@ h6 {
 .navbar,
 .navbar.navbar-white.shrink .navbar-nav>li.active>a:before,
 .navbar.shrink {
-  background-color: #000
+  background-color: rgb(125, 139, 202);
+  /*
+  background-image: url("../images/backgroundnavbar.png");
+  */
 }
 
 .navbar .navbar-nav>li.active>a:before,
@@ -1903,9 +1906,9 @@ h6 {
 }
 
 .navbar .navbar-toggle {
-  border: 1px solid #fff;
+  
   border-radius: 0;
-  margin-top: 24px
+  
 }
 
 .navbar .navbar-toggle:focus,
@@ -4764,8 +4767,9 @@ section.pull-up {
   }
   .navbar .navbar-nav>li {
     line-height: 80px!important;
-    padding: 0 15px
+    padding: 0 15px;
   }
+  
   .navbar.shrink .container {
     height: 60px
   }

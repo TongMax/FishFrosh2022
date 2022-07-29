@@ -11,7 +11,8 @@
     Shrink navigation.
   \*------------------------------------*/
 
-  $(window).scroll(function(){
+/**
+ * $(window).scroll(function(){
     if ($(document).scrollTop() > 80){
       $('.navbar').addClass('shrink');
     }
@@ -19,8 +20,7 @@
       $('.navbar').removeClass('shrink');
     }
   });
-
-
+ */
 
   /*------------------------------------*\
     Scroll to top.
