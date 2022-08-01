@@ -4763,7 +4763,7 @@ section.pull-up {
 @media (min-width:1200px) {
   .navbar {
     background-color: rgba(0, 0, 0, .15);
-    border-bottom: 1px solid rgba(255, 255, 255, .15)
+    /* border-bottom: 1px solid rgba(255, 255, 255, .15) */
   }
   .navbar .navbar-nav>li {
     line-height: 80px!important;
